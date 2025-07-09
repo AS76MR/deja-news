@@ -1,0 +1,14 @@
+# config/config_template.yaml
+test_input:
+  file: 
+  news_id: 
+
+openai_api_key: 
+
+num_partitions: 
+
+k_nearest_neighbours: 
+
+termination_flag_path: 
+        
+
