@@ -71,7 +71,7 @@ This system is designed for **low latency**, **high throughput**, and **horizont
 - **Extensibility**: Easily configurable to:
   - Use different embedding models
   - Swap out named entity extractors
-  - use a more efficient protocal instead of JSON if the number of neighbours searched in ebery partition is very large
+  - use a more efficient protocal instead of JSON if the number of neighbours searched in every partition is very large
   - Integrate a more robust coordination backend (e.g., Redis, etcd)
 
 ---
