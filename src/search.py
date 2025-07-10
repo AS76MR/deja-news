@@ -3,6 +3,7 @@ from dist_utils import search_index
 import numpy as np
 from cassandra_utils import get_embeddings
 from ine import important_named_entities
+from entailment import check_contradiction 
 
 
 

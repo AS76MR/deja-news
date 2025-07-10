@@ -24,6 +24,7 @@ if __name__ == "__main__":
     spark.sparkContext.addPyFile("src/cassandra_utils.py")
     spark.sparkContext.addPyFile("src/hour_article_ids.py")
     spark.sparkContext.addPyFile("src/ine.py")
+    spark.sparkContext.addPyFile("src/entailment.py")
     spark.sparkContext.addPyFile("src/flask_client.py")
 
     with open("config/config.yaml", "r") as f:
